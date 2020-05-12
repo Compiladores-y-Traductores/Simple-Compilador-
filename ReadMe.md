@@ -29,4 +29,9 @@ En informática, un compilador es un tipo de traductor que transforma un program
 
             make probar
 
+### Comandos del Make
+
+- make: Ejecuta todos los procesos de compilacion y analisis lexico dentro de los documentos.
+- clean: Limpia los elementos creados del producto de la compilacion y flexeado.
+- probar: Con este lanzamos el comando de prueba.
 
