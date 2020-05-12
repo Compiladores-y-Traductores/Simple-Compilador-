@@ -17,7 +17,10 @@ En informática, un compilador es un tipo de traductor que transforma un program
 ### Como iniciar ?
 
 1. Clona el repositorio de github
-2. Crea una rama alterna dentro del repositorio con git checkout -b nombre_de_tu_rama
+2. Crea una rama alterna dentro del repositorio con: 
+
+            git checkout -b nombre_de_tu_rama
+
 3. Dentro de la ruta del proyecto abre la terminal de comandos e ingresa lo siguiente:
 
             make
