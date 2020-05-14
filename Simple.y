@@ -46,7 +46,7 @@ struct lbs * newlblrec() /* Allocate space for the labels
 /*-------------------------------------------------------------------------
 Install identifier & check if previously defined.
 -------------------------------------------------------------------------*/
-install ( char *sym_name )
+void install ( char *sym_name )
 {
     symrec *s;
     s = getsym (sym_name);
@@ -60,7 +60,7 @@ install ( char *sym_name )
 /*-------------------------------------------------------------------------
 If identifier is defined, generate code
 -------------------------------------------------------------------------*/
-context_check( enum code_ops operation, char *sym_name )
+void context_check( enum code_ops operation, char *sym_name )
 { 
     symrec *identifier;
     identifier = getsym( sym_name );
