@@ -8,8 +8,11 @@ compilar:
 flexear:
 			flex Simple.lex
 probar:
-			Simple test_simple
+			./Simple test_simple
 clean:
 		rm lex.yy.c
 		rm Simple.tab.c
 		rm Simple.tab.h
+		rm Simple
+		rm Simple.tab.o
+		rm lex.yy.o
